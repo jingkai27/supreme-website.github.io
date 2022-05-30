@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/jk_favicon_2.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3171e5555d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <div class="contact-box">
+                <div class="left"></div>
+                <div class="right">
+                    <h2>Contact Me</h2>
+                    <p>I am open to new internship opportunities or just simply connecting to learn more about your world.
+                    Drop me a message and let's see how we can work together meaningfully! </p>
+                    <input type="text" class="field" placeholder="Your Name">
+                    <input type="email" class="field" placeholder="Your Email">
+                    <input type="text" class="field" placeholder="Your Phone">
+                    <textarea class="field" placeholder="Message"></textarea>
+                    <button class="btn"> Send </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                Host : "smtp.elasticemail.com",
+                Username : "jingkaipro3@gmail.com",
+                Password : "27AB12F7A75ECEC41EF8B2F2F7FE056CBA40",
+                To : 'jingkai.t27@gmail.com',
+                From : document.getElementByID("email").value,
+                Subject : "New Contact Form",
+                Body : "Name: " + document.getElementById("name").value +
+                "<br> Email: " + document.getElementById("email").value +
+                "<br> Phone No: " + document.getElementById("phone").value +
+                "<br> Message: " + document.getElementById("message").value
+            }).then(
+            message => alert(Message Sent Successfully)
+            );
+        }
+    </script>
+</body>
+</html>

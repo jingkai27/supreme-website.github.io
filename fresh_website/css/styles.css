@@ -1,0 +1,375 @@
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #FEFBE7;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    width:100%;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: #85586F;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+p {
+    line-height: 1.5;
+    margin: 16px 0 16px 0;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    margin: 15px auto 0 auto;
+    font-weight: 500;
+   }
+
+h2 {
+    font-family: 'Poppins', serif;
+    font-size: 2.1em;
+    font-weight: 500;
+    padding-top: 8px;
+
+}
+
+
+h3 {
+    margin-top: 0%;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 1.8em;
+    color: #85586F;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height:80px;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+label.logo{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    line-height: 80px;
+    padding: 0 100px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover{
+    background: #F8ECD1;
+    transition: 1s;
+}
+
+/* index.html css */
+.intro {
+    margin-left: 5%;
+    margin-top: 5%;
+    padding-bottom: 50px;
+}
+
+.about_me {
+    padding: 5% 50% 5% 5%;
+}
+
+.hit_me{
+    background-color: #F9EBC8;
+    padding: 5% 50% 5% 5%;
+}
+
+.bottom-container{
+    text-align: center;
+    padding-top: 2.5%;
+}
+
+a.button {
+    background-color: #DAE5D0;
+    padding: 20px 30px;
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+/* my_story.css */
+.center-align {
+    margin: auto;
+}
+
+.fa-angles-down {
+    text-align: center;
+    padding: 2.5% 50%;
+}
+
+
+#flex_container {
+    display: flex;
+    flex-direction: row;
+}
+
+#flex_container > div {
+    max-width: 125%;
+    text-align: center;
+    padding: 20%;
+}
+
+#flex_container > section {
+    margin: 5% 7% 2% 3%;
+}
+
+.grid{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 500px));
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 0, 2.5%;
+    margin-bottom: 20px;
+
+}
+
+.grid > img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+img.display{
+    max-width: 650px;
+}
+
+#my_story {
+    display: flex;
+    flex-direction: row;
+    padding: 0 7%;
+    height: 750px;
+}
+
+#my_story > div {
+    width: 70%;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#my_story > section {
+    margin-top: 22.5%;
+    margin-left: 1%
+}
+
+.story_text {
+    width: 45%;
+    display: inline-block;
+    padding-left: 5%;
+}
+
+#my_story_text {
+    font-size: 100px;
+    padding: 40px 0 40px 0;
+}
+
+/* contact_me.html */
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+.container:after{
+    content:'';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711") no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(50px);
+}
+
+.contact-box{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: yellow;
+    box-shadow: 0px 0px 19px 5px rgba(0 ,0, 0, 0.19);
+}
+
+.left {
+    height: 100%;
+    background: url("https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711") no-repeat center;
+    background-size: cover;
+}
+
+.right {
+    padding: 25px 40px;
+}
+
+.right > h2 {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.right > h2: after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform; translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: green;
+}
+
+.field {
+    width: 100%;
+    padding: 0.5rem 0rem;
+    outline: none;
+    border: 2px solid rgba(0,0,0,0);
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+    font-family: "Playfair Display", "Helvetica", "Arial", sans serif;
+}
+
+.field: hover{
+    background-color: rgba (0,0,0,0.1);
+}
+
+.field: focus{
+    background-color: #fff;
+    border: 2px solid rgba(30,85,250, 0.47);
+}
+
+.area {
+    min-height: 150px;
+}
+
+.btn{
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    background-color: #F9EBC8;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    transition: .3s;
+    border-radius: 30px;
+}
+
+
+/* changing screen size */
+@media (max-width:952px){
+    label.logo{
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 15px
+    }
+}
+
+
+@media (max-width: 920px){
+    .checkbtn{
+        display: block;
+    }
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #DAE5D0;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 17px
+    }
+
+    a:hover, a.active{
+        background: none;
+        color: #85586F;
+    }
+
+    #check:checked ~ul{
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .contact-box{
+        grid-template-columns: 1fr;
+    }
+    .left{
+    height: 200px;
+    }
+
+    h1 {
+        background-color: yellow;
+    }
+}
