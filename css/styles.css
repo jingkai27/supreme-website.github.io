@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+
 body {
     background-color: #FEFBE7;
     margin-left: 0;
@@ -122,6 +123,7 @@ a.active, a:hover{
 .bottom-container{
     text-align: center;
     padding-top: 2.5%;
+    font-size: 1vw;
 }
 
 a.button {
@@ -140,6 +142,7 @@ a.button {
 .fa-angles-down {
     text-align: center;
     padding: 2.5% 50%;
+    max-width: 100%
 }
 
 
@@ -315,6 +318,21 @@ img.display{
 
 
 /* changing screen size */
+/* adjusting position of logo */
+@media screen and (max-width: 1280px) {
+    #my_story{
+        padding: 0 5%;
+    }
+
+    img.display {
+        max-width: 500px;
+    }
+
+    #my_story > section{
+        margin-top: 19%;
+    }
+}
+
 @media (max-width:952px){
     label.logo{
         padding-left: 50px;
@@ -325,11 +343,12 @@ img.display{
 }
 
 
-@media (max-width: 920px){
+@media (max-width: 1000px){
+    /* Enable Button to Show Up */
     .checkbtn{
         display: block;
     }
-
+    /* Turn Navbar Vertical */
     ul{
         position: fixed;
         width: 100%;
@@ -350,7 +369,7 @@ img.display{
     nav ul li a {
         font-size: 17px
     }
-
+    /* Hovering above the navbar list */
     a:hover, a.active{
         background: none;
         color: #85586F;
@@ -359,17 +378,45 @@ img.display{
     #check:checked ~ul{
         left: 0;
     }
+    /*Flex Containers all turn to Block */
+    #flex_container{
+        display: block;
+        text-align: center;
+    }
+
+    #flex_container > div {
+        padding: 5%
+    }
+
+    #flex_container > section{
+    margin: 0;
+    }
+    /* Increase in height for my_story to have sufficient space */
+    #my_story {
+        display: block;
+        text-align: center;
+        height: 950px;
+    }
+    /*my_story class_adjustments */
+
+    #my_story > div{
+        width: 100%;
+    }
+    #my_story > section{
+        margin-top: 5%;
+    }
+    p{
+        font-size: 1em
+     }
 }
 
+/* Contact Me Page */
 @media screen and (max-width: 880px) {
     .contact-box{
         grid-template-columns: 1fr;
     }
     .left{
-    height: 200px;
-    }
-
-    h1 {
-        background-color: yellow;
+        height: 200px;
     }
 }
+
