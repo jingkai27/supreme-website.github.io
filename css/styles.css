@@ -193,6 +193,7 @@ img.display{
     flex-direction: row;
     padding: 0 7%;
     height: 750px;
+    width: 100%;
 }
 
 #my_story > div {
