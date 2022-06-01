@@ -40,7 +40,7 @@ p {
 }
 h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 3em;
+    font-size: 3rem;
     margin: 15px auto 0 auto;
     font-weight: 500;
    }
@@ -112,12 +112,12 @@ a.active, a:hover{
 }
 
 .about_me {
-    padding: 5% 50% 5% 5%;
+    padding: 5% 35% 5% 5%;
 }
 
 .hit_me{
     background-color: #F9EBC8;
-    padding: 5% 50% 5% 5%;
+    padding: 5% 35% 5% 5%;
 }
 
 .bottom-container{
@@ -193,11 +193,11 @@ img.display{
     flex-direction: row;
     padding: 0 7%;
     height: 750px;
-    width: 100%;
+    width: 86%;
 }
 
 #my_story > div {
-    width: 70%;
+    width: 60%;
     margin-right: 30px;
     margin-left: 30px;
 }
@@ -353,6 +353,10 @@ img.display{
         max-width: 500px;
     }
 
+    #my_story > div {
+    width: 70%;
+    }
+
     #my_story > section{
         margin-top: 19%;
     }
@@ -423,16 +427,50 @@ img.display{
         height: 950px;
     }
     /*my_story class_adjustments */
-
     #my_story > div{
         width: 100%;
+        margin: 0;
     }
     #my_story > section{
         margin-top: 5%;
     }
+
+    /*index.html adjustments */
+    h1{
+        font-size: 2rem
+    }
+    .about_me{
+        padding: 5% 20% 5% 5%;
+    }
+    .hit_me{
+        padding: 5% 20% 5% 5%;
+    }
+    body{
+        font-size: 12px;
+    }
+    a.button{
+        margin-top: 3px;
+    }
+    label.logo{
+        padding-left: 30px;
+        font-size: 1rem;
+    }
+    .bottom-container > p{
+        font-size: 0.55rem;
+        margin: 4px 0;
+    }
+    a.footer-link > img{
+        height: 28px;
+        width: 28px;
+    }
+
     p{
         font-size: 1em
      }
+    .intro{
+        padding-bottom: 30px;
+    }
+
 }
 
 /* Contact Me Page */
