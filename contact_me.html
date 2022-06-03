@@ -13,40 +13,26 @@
 </head>
 <body>
     <div class="container">
-        <form onsubmit="sendEmail(); reset(); return false;">
+        <form action="https://formspree.io/f/moqrropy" method="POST" id="my-form">
             <div class="contact-box">
                 <div class="left"></div>
                 <div class="right">
                     <h2>Contact Me</h2>
                     <p>I am open to new internship opportunities or just simply connecting to learn more about your world.
-                    Drop me a message and let's see how we can work together meaningfully! </p>
-                    <input type="text" class="field" placeholder="Your Name">
-                    <input type="email" class="field" placeholder="Your Email">
-                    <input type="text" class="field" placeholder="Your Phone">
-                    <textarea class="field" placeholder="Message"></textarea>
+                    Drop me a message and let's see how we can work together meaningfully! <br>
+                    </p>
+                    <input type="text" class="field" placeholder="Your Name" name="Name: ">
+                    <input type="email" class="field" placeholder="Your Email" name="Email Address: ">
+                    <input type="text" class="field" placeholder="Your Phone Number" name="Phone Number: ">
+                    <textarea class="field" placeholder="Message" name="Message: "></textarea>
                     <button class="btn"> Send </button>
                 </div>
             </div>
+            <div id="status">
+            </div>
         </form>
     </div>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-        function sendEmail(){
-            Email.send({
-                Host : "smtp.elasticemail.com",
-                Username : "jingkaipro3@gmail.com",
-                Password : "27AB12F7A75ECEC41EF8B2F2F7FE056CBA40",
-                To : 'jingkai.t27@gmail.com',
-                From : document.getElementByID("email").value,
-                Subject : "New Contact Form",
-                Body : "Name: " + document.getElementById("name").value +
-                "<br> Email: " + document.getElementById("email").value +
-                "<br> Phone No: " + document.getElementById("phone").value +
-                "<br> Message: " + document.getElementById("message").value
-            }).then(
-            message => alert(Message Sent Successfully)
-            );
-        }
-    </script>
+
+    <script src="main.js"></script>
 </body>
 </html>
