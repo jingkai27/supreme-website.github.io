@@ -35,7 +35,7 @@ body {
 
 h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin: 0px auto 0 auto;
     font-weight: 500;
    }
@@ -119,7 +119,8 @@ a.active, a:hover{
 
 .hit_me{
     background-color: #F9EBC8;
-    padding: 5% 35% 5% 5%;
+    padding: 5%;
+    text-align: center;
 }
 
 .bottom-container{
@@ -203,7 +204,7 @@ img.display{
 }
 
 #my_story > section {
-    margin-top: 22.5%;
+    margin-top: 20%;
     margin-left: 1%
 }
 
@@ -422,7 +423,7 @@ img.display{
     }
 
     #flex_container > div {
-        padding: 5%
+        padding: 10% 5% 0%
     }
 
     #flex_container > section{
@@ -445,14 +446,14 @@ img.display{
 
     /*index.html adjustments */
     h1{
-        font-size: 2rem
+        font-size: 2.5rem
     }
     .about_me{
         padding: 5% 20% 5% 5%;
     }
     .hit_me{
-        padding: 5% 20% 5% 5%;
     }
+
     body{
         font-size: 12px;
     }
@@ -518,6 +519,10 @@ img.display{
     .grid{
         column-gap: 2px;
         row-gap: 2px;
+    }
+
+    h1{
+      font-size: 2rem; 
     }
 
 }
