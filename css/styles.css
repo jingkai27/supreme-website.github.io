@@ -52,7 +52,7 @@ h3 {
     margin-top: 0%;
     font-family: 'Playfair Display', serif;
     font-weight: 600;
-    font-size: 1.8em;
+    font-size: 1.6em;
     color: #85586F;
 }
 
@@ -149,6 +149,15 @@ a.button {
     max-width: 100%
 }
 
+.q-a{
+  width: 80%;
+  text-align: center;
+  padding: 10%;
+}
+
+.askqn{
+  padding-bottom: 5%;
+}
 
 #flex_container {
     display: flex;
@@ -522,7 +531,7 @@ img.display{
     }
 
     h1{
-      font-size: 2rem; 
+      font-size: 2rem;
     }
 
 }
