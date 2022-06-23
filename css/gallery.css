@@ -154,7 +154,10 @@
 
 @media screen and (max-width:550px){
   .skills-cell{
-    margin: 50px 25px;
+    margin: 25px;
+  }
+  .skill-heading{
+    padding-bottom: 0;
   }
 }
 
@@ -168,6 +171,6 @@
 @media (max-width: 500px){
   .heading-text{
     font-size: 2rem;
-    padding: 5%, 2.5%; 
+    padding: 5%, 2.5%;
   }
 }
