@@ -1,0 +1,48 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 6.0.0">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:exif="http://ns.adobe.com/exif/1.0/"
+    xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+    xmlns:MY="http://ns.mylollc.com/MyloEdit/"
+    xmlns:tiff="http://ns.adobe.com/tiff/1.0/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+   exif:DateTimeOriginal="2022-05-23T19:09:48.565"
+   exif:SubSecTime="565"
+   exif:SubSecTimeOriginal="565"
+   exif:SubSecTimeDigitized="565"
+   exif:GPSVersionID="2.2.0.0"
+   exif:GPSLatitude="1,17.7800N"
+   exif:GPSLongitude="103,51.2595E"
+   xmp:CreateDate="2022-05-23T19:09:48.565"
+   xmp:ModifyDate="2022-05-23T19:09:48.565"
+   xmp:MetadataDate="2023-08-22T14:15:48.812Z"
+   MY:DateRangeStart="2022-05-23T19:09:48.565"
+   MY:DateRangeEnd="2022-05-23T19:09:48.565"
+   MY:DateRangeScope=""
+   MY:Undated="false"
+   MY:flag="false"
+   MY:processVersion="1"
+   MY:MetadataDate="2023-08-22T14:15:48.812Z"
+   tiff:Orientation="1"
+   xmpMM:DocumentID="A43D715A-7306-4AB2-ACAE-542C9D9E3981"
+   xmpMM:OriginalDocumentID="A43D715A-7306-4AB2-ACAE-542C9D9E3981"
+   xmpMM:InstanceID="xmp.iid:CF531783-C3B9-4667-88CD-6CD905486949">
+   <exif:ISOSpeedRatings>
+    <rdf:Seq>
+     <rdf:li>800</rdf:li>
+    </rdf:Seq>
+   </exif:ISOSpeedRatings>
+   <dc:title>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">website - 2</rdf:li>
+    </rdf:Alt>
+   </dc:title>
+   <dc:creator>
+    <rdf:Seq>
+     <rdf:li>Jing Kai Tan</rdf:li>
+    </rdf:Seq>
+   </dc:creator>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
