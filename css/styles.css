@@ -328,6 +328,22 @@ img.display{
     border-radius: 30px;
 }
 
+.see_more {
+            background-color: #F9EBC8;
+            color: white; /* White text color */
+            padding: 15px 40px; /* Padding around the text */
+            font-size: 16px; /* Font size of the text */
+            border: none; /* Remove border */
+            border-radius: 5px; /* Add some border-radius for rounded corners */
+            cursor: pointer; /* Add a pointer cursor on hover */
+            margin: 30px 0px;
+        }
+
+        /* Add a hover effect to the button */
+        button:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+
 #status{
     width: 90%;
     max-width: 600px;
